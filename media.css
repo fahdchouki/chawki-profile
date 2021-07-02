@@ -1,0 +1,158 @@
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1100;
+  }
+}
+@media (max-width: 1000px) {
+  section.first .contact .text {
+    width: 50%;
+  }
+  section.first .contact .text .title {
+    font-size: 4rem;
+    padding-right: 10px;
+  }
+  section.first .contact .contact-form {
+    width: 50%;
+  }
+  section.first .contact .contact-form .form {
+    width: 90%;
+    margin-left: auto;
+  }
+  section.second h2 {
+    font-size: 3rem;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  section.second .bio .profile {
+    width: 50%;
+  }
+  section.second .bio .profile img {
+    width: 100%;
+  }
+  section.second .bio .desc {
+    width: 50%;
+    line-height: 1.3;
+    font-size: 1.1rem;
+    padding: 20px;
+    margin-bottom: auto;
+  }
+  section.second .short-desc {
+    margin: 50px 0px 20px;
+    line-height: 1.3;
+    font-size: 1.1rem;
+  }
+  .book-det .desc .title {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 810px) {
+  section.first .contact .text {
+    width: 100%;
+  }
+  section.first .contact .text .title {
+    font-size: 4rem;
+    padding-right: 10px;
+  }
+  section.first .contact .contact-form {
+    width: 100%;
+  }
+  section.first .contact .contact-form .form {
+    width: 70%;
+    margin: 30px auto 0px;
+  }
+}
+@media (max-width: 736px) {
+  section.second h2 {
+    font-size: 2.8rem;
+    width: 95%;
+  }
+  section.second .bio .profile {
+    width: 90%;
+    margin: 20px auto;
+  }
+  section.second .bio .desc {
+    width: 100%;
+    line-height: 1.3;
+    font-size: 1.1rem;
+    padding: 20px;
+    margin-bottom: auto;
+  }
+  section.second .short-desc {
+    margin: 50px 0px 20px;
+    line-height: 1.3;
+    font-size: 1.1rem;
+    padding: 8px;
+  }
+  .redirection .agency {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+  .redirection .agency a:first-child {
+    display: inline-block;
+    max-width: 200px;
+  }
+  .redirection .agency a:nth-child(2) {
+    display: inline-block;
+    margin: 10px;
+  }
+  .redirection .agency-desc {
+    width: 95%;
+    color: rgb(238, 230, 230);
+    font-size: 0.8rem;
+    padding: 10px;
+    line-height: 2.1;
+  }
+  .book-det .book-img {
+    width: 90%;
+  }
+  .book-det .book-img img {
+    width: 80%;
+  }
+  .book-det .desc {
+    width: 90%;
+    padding: 10px;
+  }
+  .test-title {
+    font-size: 2rem;
+    margin: 20px 0px;
+  }
+  .video {
+    width: 90%;
+    margin: 20px auto;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 98%;
+  }
+  section.first .contact .text .title {
+    font-size: 3rem;
+  }
+  section.first .contact .contact-form .form {
+    width: 95%;
+  }
+  .redirection .agency {
+    margin-bottom: 10px;
+  }
+  .redirection .agency a:nth-child(2) {
+    display: inline-block;
+    margin: 30px;
+  }
+  .testimonials .clients .client {
+    width: 90%;
+    margin: 10px auto 20px;
+  }
+  .articles .article {
+    width: 90%;
+    margin: 15px auto;
+  }
+  .video {
+    width: 90%;
+  }
+  .video iframe {
+    min-height: 200px;
+  }
+  .video-sec a {
+    margin: 10px auto;
+  }
+}
